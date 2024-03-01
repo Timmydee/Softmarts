@@ -4,7 +4,7 @@
       {
         "src": "/checkout",
         "methods": ["POST"],
-        "dest": "/server.js"
+        "dest": "/checkout.js"
       }
     ],
     "rewrites": [
