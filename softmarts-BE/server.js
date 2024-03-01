@@ -6,7 +6,7 @@ const stripe = require(`stripe`)(
 
 const app = express();
 app.use(cors({
-    origin: "https://softmarts-be.vercel.app/"
+    origin: "https://softmarts.vercel.app/"
 }));
 app.use(express.static("public"));
 app.use(express.json());
