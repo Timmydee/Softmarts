@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/checkout",
+        "methods": ["POST"],
+        "dest": "/server.js"
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/checkout",
+        "destination": "/checkout"
+      }
+    ]
+  }
+  
