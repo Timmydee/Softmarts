@@ -5,9 +5,10 @@ const stripe = require(`stripe`)(
 );
 
 const app = express();
-app.use(cors({
-    origin: "https://softmarts.vercel.app/"
-}));
+// app.use(cors({
+//     origin: "https://softmarts.vercel.app/"
+// }));
+app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
 
