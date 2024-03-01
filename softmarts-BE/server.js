@@ -5,7 +5,9 @@ const stripe = require(`stripe`)(
 );
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: "https://softmarts-be.vercel.app/"
+}));
 app.use(express.static("public"));
 app.use(express.json());
 
@@ -28,8 +30,8 @@ app.post("/checkout", async (req, res) => {
     payment_method_types: ["card"],
     line_items: lineItems,
     mode: "payment",
-    success_url: "http://localhost:5173/success",
-    cancel_url: "http://localhost:5173/cancel",
+    success_url: "https://softmarts-be.vercel.app//success",
+    cancel_url: "https://softmarts-be.vercel.app//cancel",
   });
 
   res.send(
