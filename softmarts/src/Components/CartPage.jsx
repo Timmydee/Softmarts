@@ -6,7 +6,7 @@ const CartPage = () => {
   const {cartItems, addToCart, removeFromCart, getCartTotal} = useContext(CartContext)
   
   const checkout = async () => {
-    await fetch('https://softmarts-be.vercel.app//checkout', {
+    await fetch('https://softmarts-be.vercel.app/checkout', {
       method: "POST",
       headers : {
         "Content-Type": 'application/json'
