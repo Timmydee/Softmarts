@@ -23,18 +23,15 @@ const CartPage = () => {
 
 
   return (
-    <div className="w-full bg-gray-200">
+    <div className="w-full lg:px-5 px-2 bg-gray-200">
       <div className="">
-        <div className="bg-white py-3 border">
+        <div className=" py-3 font-medium">
           <h6>Cart Summary</h6>
         </div>
-        <div className="flex justify-between py-3 border">
+        <div className="flex justify-between py-3 font-medium">
           <h6>SubTotal</h6>
           <h6>${getCartTotal()}</h6>
         </div>
-        {/* <div className="border bg-white mb-0">
-          <h6>Cart</h6>
-        </div> */}
 
         <div>
           <div>
