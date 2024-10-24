@@ -16,6 +16,7 @@ The tutorial covers the following topics:
 ## Quick Links
 
 - [GitHub Repository](https://github.com/Timmydee/Softmarts): Access the project repository for source code and files.
+- [Read the tutorial] (https://www.developerslearnit.com/2024/03/building-react-shopping-cart-with.html): Read the tutorial
 - [Live Demo](https://softmarts.vercel.app): View the live demonstration of the Softmarts online store.
 
 ## Getting Started
